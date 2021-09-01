@@ -91,7 +91,7 @@ const Booth = () => {
       <button onClick={claimFilm}>Claim Film</button>
       {filmClaimed ? <h4>You claimed film!</h4> : <></>}
 
-      {/* <img src={photo}></img> */}
+      <img src={photo}></img>
 
       <style jsx>{`
         .booth {
