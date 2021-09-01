@@ -1,9 +1,12 @@
-import React from 'react';
+import Booth from "@app/components/booth";
+import Header from "@app/components/header";
+import React from "react";
 
 const IndexPage = () => {
   return (
     <div className="index">
-      Index
+      <Header></Header>
+      <Booth></Booth>
       <style jsx>{`
         .index {
         }
